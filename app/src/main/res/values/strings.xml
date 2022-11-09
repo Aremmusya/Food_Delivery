@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Food_Delivery</string>
+    <string name="title1">"ПОКУШОТЬ"</string>
+    <string name="title2">Приложение на языке java</string>
+    <string name="title3">Закажем хавчика!</string>
+    <string name="welcome">Привет друг!</string>
+    <string name="order">Закажи и кушой</string>
+    <string name="find">Выбрать позиции</string>
+    <string name="free">Бесплатная доставка</string>
+    <string name="free_delivery">до 31 декабря</string>
+    <string name="order_now">Заказать сейчас</string>
+    <string name="categories">Категории</string>
+    <string name="pop">Популярное</string>
+    <string name="home">В начало</string>
+    <string name="prof">Профиль</string>
+    <string name="supp">Помощь</string>
+    <string name="sett">Настройка</string>
+    <string name="title">title</string>
+
+</resources>
