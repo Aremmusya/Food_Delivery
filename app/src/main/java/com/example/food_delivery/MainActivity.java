@@ -12,14 +12,16 @@ import com.example.Domain.CategoryDomain;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-private RecyclerView.Adapter adapter;
-private RecyclerView recyclerViewCategoryList;
+private RecyclerView.Adapter adapter, adapter2;
+private RecyclerView recyclerViewCategoryList, recyclerViewPopularList;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         recyclerViewCategory();
+
+
     }
 
     private void recyclerViewCategory() {
@@ -37,4 +39,5 @@ private RecyclerView recyclerViewCategoryList;
         adapter = new CategoryAdaptor(category);
         recyclerViewCategoryList.setAdapter(adapter);
     }
+
 }
